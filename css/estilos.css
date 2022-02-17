@@ -1,0 +1,151 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  font-family: Arial;
+   font-size: 16px;
+
+}
+
+
+.cabecera {
+  background-color: red;
+  color: white;
+  border: 5px;
+  width: 85vw;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.logo a {
+  text-decoration:none;
+  text-transform: uppercase;
+
+}
+.navbar{
+  background-color: aquamarine;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85vw;
+  text-align: right;
+
+}
+.navbar ul{
+
+
+}
+.navbar ul li{
+  display: inline-block;
+  background-color: black;
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 10px;
+
+}
+.navbar ul li a:hover{
+  color: blue;
+}
+#maincontent{
+
+  width: 85vw;
+  margin-right: auto;
+  margin-left: auto;
+
+
+
+}
+#portada{
+  width:75%;
+  background-color: darkgrey;
+  padding: 1.6em;
+  box-sizing: border-box;
+
+
+
+
+
+}
+.detacado{
+  background-color: white;
+  padding: 0.7em;
+  margin-bottom: 0.2em;
+
+
+
+}
+
+.default{
+ background-color: white;
+  padding: 1em;
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  height: 500px;
+}
+.imgnota img{
+  width: 100%;|
+}
+footer{
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+
+}
+.extras{
+  float: right;
+
+}
+
+#formcontacto{
+ background-color: mediumvioletred;
+  padding:1.2em;
+  border-radius: 10px;
+  margin-top:1.2em ;
+  margin-left: auto;
+
+}
+#formcontacto input,#formcontacto select,#formcontacto textarea{
+width: 100%;
+padding: 0.8em;
+ margin-bottom: ;
+box-sizing:border-box;
+
+}
+#formcontacto label{
+  margin: 10px;
+}
+#formcontacto input[type="submit"]:hover{
+  background-color:green ;
+
+
+}
+#formcontacto input:focus{
+  background-color: lightgray;
+
+
+}
+
+#formcontacto input:invalid{
+  border:  4px solid red;
+  border-radius: 10px;
+}
+#formcontacto input:valid{
+  border: 4px solid green;
+  border-radius: 10px;
+}
